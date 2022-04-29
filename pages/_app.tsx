@@ -31,21 +31,21 @@ function MyApp({ Component, pageProps }: AppProps) {
                 `}
       </Script>
       <NextSeo
-        title="Anurag | Frontend Developer"
-        titleTemplate="Anurag | Frontend Developer"
-        defaultTitle="Anurag | Frontend Developer"
-        description="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
+        title="Saif Ul Islam | Full Stack Developer"
+        titleTemplate="Saif Ul Islam | Full Stack Developer"
+        defaultTitle="Saif Ul Islam | Full Stack Developer"
+        description="Hey! I'm Saif Ul Islam, A Software Engineer, Blogger, Open Source &amp; Student"
         openGraph={{
-          url: "https://www.anurag.tech/",
-          title: "Anurag | Frontend Developer",
+          url: "https://gs-o-d-22-statement-of-interest.vercel.app/",
+          title: "Saif Ul Islam | Full Stack Developer",
           description:
-            "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
+            "Hey! I'm Saif Ul Islam, A Software Engineer, Blogger, Open Source Developer & Student!",
           images: [
             {
-              url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
+              url: "https://drive.google.com/file/d/1yt9HtiR0VTsoEna_02o2K2ICCXqUp8W6/view?usp=sharing",
               width: 800,
               height: 420,
-              alt: "Anurag | Frontend Developer",
+              alt: "Saif Ul Islam | Software Engineer, Blogger, Open Source Developer & Student",
             },
           ],
         }}
@@ -58,12 +58,12 @@ function MyApp({ Component, pageProps }: AppProps) {
           {
             property: "keywords",
             content:
-              "Frontend Developer, anurag, anuragkr, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+              "Software Engineer, Blogger, Open Source Developer & Student, Saif, Web Developer, web development, web developer, blogger, tech, open source",
           },
         ]}
       />
       <Head>
-        <link rel="icon" type="image/png" href="/assests/avatar.png" />
+        <link rel="icon" type="image/png" href="/assests/avatar.jpeg" />
       </Head>
       <Component {...pageProps} />
     </>

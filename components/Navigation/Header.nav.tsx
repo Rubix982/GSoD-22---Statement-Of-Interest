@@ -25,9 +25,9 @@ const Header: NextComponentType = () => {
       className={`font-jost py-8 sm:flex sm:flex-row sm:items-center sm:justify-between`}
     >
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
-        <TextLink text="Home" url="#" />
-        <TextLink text="Skills" url="#skills" />
-        <TextLink text="Projects" url="#projects" />
+        <TextLink text="Personal" url="#" />
+        <TextLink text="Professional" url="#skills" />
+        <TextLink text="Project" url="#projects" />
         <TextLink text="Contact" url="#contact" />
       </p>
 
