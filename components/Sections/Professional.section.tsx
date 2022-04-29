@@ -30,7 +30,7 @@ const Professional: NextComponentType = () => {
             <li>
               <p>
                 Published articles on Hashnode covering topics and idea from
-                FLINT's wiki. Additionally developing graphic images with FigJam
+                FLINT&lsquo;s wiki. Additionally developing graphic images with FigJam
                 (Figma Boards) to convey the ideas, attached in the blog post,
               </p>
               <ul className="ml-8 mt-2 mb-4 list-disc">

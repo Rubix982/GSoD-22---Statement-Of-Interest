@@ -19,7 +19,7 @@ const Personal: NextComponentType = () => {
     <div className="my-8 flex flex-row items-center justify-between px-3 font-sen">
       <div>
         <h1 className="pb-3 text-9xl font-bold text-white">
-          Statement Of Interest: Moja Global: GSoD'22
+          Statement Of Interest: Moja Global: GSoD&lsquo;22
         </h1>
         <p className="text-white">
           As per the format,{" "}
