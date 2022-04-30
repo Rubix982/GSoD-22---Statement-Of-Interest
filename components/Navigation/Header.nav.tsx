@@ -25,10 +25,10 @@ const Header: NextComponentType = () => {
       className={`font-jost py-8 sm:flex sm:flex-row sm:items-center sm:justify-between`}
     >
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
-        <TextLink text="Personal" url="#" />
-        <TextLink text="Professional" url="#skills" />
-        <TextLink text="Project" url="#projects" />
+        <TextLink text="Personal" url="#personal" />
         <TextLink text="Contact" url="#contact" />
+        <TextLink text="Professional" url="#professional" />
+        <TextLink text="Project" url="#projects" />
       </p>
 
       <Link href="https://github.com/Rubix982/GSoD-22---Statement-Of-Interest" passHref>

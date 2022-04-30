@@ -19,9 +19,9 @@ const Projects: NextComponentType = () => {
   We recommend that technical writers propose a budget for the entire project, rather than an hourly rate.
   If possible, give options for reduced or increased scope. For example, you may give different budget options for documenting deployment instructions for two, four, or six platforms. */}
 
-      <p className="text-3xl font-bold text-white">Featured Projects</p>
+      <p className="text-3xl font-bold text-white">Project Timeline</p>
       <div className="my-8 flex flex-col items-center justify-center gap-10 sm:flex-row">
-        <Link href="https://vault3.live" passHref>
+        {/* <Link href="https://vault3.live" passHref>
           <a
             className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#D8B4FE] to-[#818CF8] p-1 text-white duration-100 hover:scale-105"
             target="_blank"
@@ -45,7 +45,7 @@ const Projects: NextComponentType = () => {
               <p>React component library built with Tailwind CSS</p>
             </div>
           </a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

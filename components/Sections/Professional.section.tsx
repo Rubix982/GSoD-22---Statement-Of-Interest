@@ -1,11 +1,10 @@
 import type { NextComponentType } from "next";
 
-import Link from "next/link";
 import Image from "next/image";
 
 const Professional: NextComponentType = () => {
   return (
-    <div className="text-white">
+    <div className="mb-10 text-white" id="professional">
       <div className="pb-10">
         <div className="w-full border-b border-gray-500">
           <h1 className="py-4 text-6xl font-bold">Professional</h1>
@@ -858,10 +857,36 @@ const Professional: NextComponentType = () => {
           <h3 className="text-3xl text-gray-400">
             Software Development Pakistan
           </h3>
-        </div>
-
-        <div className="pb-4">
-          <h3 className="text-3xl text-gray-400">Reflex</h3>
+          <h4 className="font-extralight italic">
+            June &lsquo;20 - Jan &lsquo;21
+          </h4>
+          <h4 className="pb-5 font-extralight italic">
+            &ldquo;A guide created for Software Development Pakistan, one of the
+            largest developer Facebook groups for Pakistan, to answer commonly
+            asked questions asked in the group, as well providing a guide for
+            new comers to Computer Science or Software Engineer to follow to
+            develop their career&ldquo;
+          </h4>
+          <ul className="ml-4 list-disc">
+            <li>
+              Proposed utilization of the Stackblitz theme for the static site,
+              which can be found here,{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="text-blue-600 visited:text-purple-600"
+                href="https://softdevpk.com/"
+              >
+                Software Development Pakistan
+              </a>
+            </li>
+            <li>
+              Coordinated with team on <b>Trello</b> for managing the project
+            </li>
+            <li>
+              Contributed to writing content for guides
+            </li>
+          </ul>
         </div>
 
         <div className="pb-4">
@@ -896,15 +921,61 @@ const Professional: NextComponentType = () => {
       </div>
 
       <div className="pb-6">
-        <h2 className="text-5xl text-gray-300">
-          Meeting Moja Global&lsquo;s Requirements
-        </h2>
+        <div className="pb-5">
+          <h2 className="text-5xl text-gray-300">
+            Meeting Moja Global&lsquo;s Requirements
+          </h2>
+        </div>
+
+        <p>
+          This application is catered towards the <b>Technical Writer #2</b>{" "}
+          role. As per the requirements,
+          <ul className="ml-4 mb-4 list-disc pt-5">
+            <li>
+              Read the FLINT wiki to see how we do things
+              (https://github.com/moja-global/FLINT/wiki/1.-Moja-FLINT)
+            </li>
+            <li>Read these papers about landscape carbon analysis</li>
+          </ul>
+          I believe I have fulfilled the requirements by,
+          <ul className="ml-4 mb-4 list-disc pt-5">
+            <li>Publishing 3 articles after reading the Wiki</li>
+            <li>
+              Have completely read and gone through the 2016 paper, while the
+              2017 paper is WIP
+            </li>
+          </ul>
+        </p>
       </div>
 
       <div className="pb-6">
-        <h2 className="text-5xl text-gray-300">
-          Personal Interest Towards Moja Global
-        </h2>
+        <div className="pb-5">
+          <h2 className="text-5xl text-gray-300">
+            Personal Interest Towards Moja Global
+          </h2>
+        </div>
+
+        <p>
+          I am inclined towards niche problems at the moment that are{" "}
+          <b>domain specific</b> and combine technology with proposals for
+          solutions to problems in that domain.
+          <br />
+          <br />
+          More than just &lsquo;writing&lsquo;, I am interested in going through
+          the <b>research material</b>, understanding the approaches in this
+          domain, and understanding it better so I can better explain to others,
+          as well as share this knowledge with people who may not have exposure
+          yet.
+          <br />
+          <br />I believe understanding how to work in a domain like{" "}
+          <b>Climate Change</b> in <b>Moja Global&lsquo;s</b> sake, will help me
+          understand how to combine a feasible, appropriate, technology based
+          solution that can be applied to nature and the real world will give me
+          a great advantage to see if I can propose my own solutions and build
+          my own products to counter problems. Again, problems that I can or
+          will be able to forsee into the future.
+          <br />
+        </p>
       </div>
 
       {/* A link to a publicly accessible portfolio of writing samples, or individual links to examples of your work.
